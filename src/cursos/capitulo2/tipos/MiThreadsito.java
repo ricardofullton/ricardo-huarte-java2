@@ -17,8 +17,11 @@ public class MiThreadsito implements Runnable{
         Runnable r=new MiThreadsito();
         Thread t1=new Thread(r);
         Thread t2=new Thread(r);
+        Thread t3=new Thread(r);
         t1.start();
         t2.start();
+        t3.start();
+        
         
         
     }
