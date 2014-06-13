@@ -11,7 +11,10 @@ package cursos.capitulo2.tipos;
  * @author Ricardo.huarte
  */
 public class Casa {
-    
+    static int numeroAlbercas;
+    static{
+        numeroAlbercas=2;
+    }
     int numeroCuartos;
     int niveles;
     //getters and setters
